@@ -1,3 +1,7 @@
+body {
+    width: 100%;
+    margin: auto 0;
+}
 .form-group {
     margin-bottom: 1rem;
 }
@@ -16,6 +20,16 @@
     border-radius: .25rem;
 }
 
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#content-close {
+    cursor: pointer;
+}
+
 #inputValue {
     width: 760px;
     font-size: 1rem;
@@ -26,4 +40,57 @@
     color: #496057;
     background-color: #fff;
     border: 1px solid #ced4da;
+}
+
+.movie {
+    margin-bottom: 20px;
+}
+
+#movie-searchable {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+section {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+}
+
+section img {
+    width: 250px;
+    transition: 250ms all;
+}
+
+img {
+    margin-left: 10px;
+
+}
+
+img:hover {
+    margin-left: 0 40px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.content {
+    border: 1px solid gray;
+    display: none;
+    padding: 20px;
+}
+
+.content div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+
+.content-display {
+    display: block;
+}
+
+iframe {
+    margin-top: 10px;
 }
