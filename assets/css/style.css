@@ -1,6 +1,8 @@
 body {
-    width: 100%;
     margin: auto 0;
+    font-family: 'Helvetica';
+    text-align: center;
+    max-width: 150%;
 }
 .form-group {
     margin-bottom: 1rem;
@@ -8,8 +10,8 @@ body {
 
 #search {
     color: #fff;
-    background-color: #007bff;
-    font-size: 1rem;
+    background-color: #5e1f50;
+    font-size: 1.2rem;
     outline: none;
     min-height: 38px;
     font-weight: 400;
@@ -17,21 +19,31 @@ body {
     cursor: pointer;
     padding: .375rem .75rem;
     line-height: 1.5;
-    border-radius: .25rem;
+    border-radius: 25px;
 }
+
+button {
+    background-color: rgb(0, 0, 0); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 
 .container {
     padding: 20px;
     margin: 0 auto;
     width: 100%;
-}
 
-#content-close {
-    cursor: pointer;
 }
 
 #inputValue {
-    width: 760px;
+    width: 100%;
+    max-width: 400px;
     font-size: 1rem;
     font-weight: 400;
     padding: .375rem .75rem;
@@ -40,6 +52,7 @@ body {
     color: #496057;
     background-color: #fff;
     border: 1px solid #ced4da;
+    border-radius: 25px;
 }
 
 .movie {
@@ -63,7 +76,7 @@ section img {
 }
 
 img {
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 
@@ -94,3 +107,28 @@ img:hover {
 iframe {
     margin-top: 10px;
 }
+
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(80, 79, 79);
+    outline: 1px solid slategrey;
+  }
+
+  #content-close {
+      font-weight: bolder;
+      border: 1px solid black;
+      width: 100px;
+      height: 20px;
+      margin: auto;
+      border-radius: 25px;
+      background-color:black;  
+      color: white;
+      cursor: pointer;
+  }

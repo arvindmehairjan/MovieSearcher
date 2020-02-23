@@ -35,7 +35,7 @@ function createMovieContainer(movies, title = '') {
     const content = document.createElement('div');
     content.classList = 'content';
 
-    const contentClose = `<p id="content-close">X</p>`;
+    const contentClose = `<p id="content-close">Close</p>`;
 
     content.innerHTML = contentClose;
 
@@ -85,7 +85,7 @@ function createIframe(video) {
 }
 
 function createVideoTemplate(data, content) {
-    content.innerHTML = '<p id="content-close">X</p>';
+    content.innerHTML = '<p id="content-close">Close</p>';
     console.log('Videos: ', data)
     const videos = data.results;
     const length = videos.length > 4 ? 4 : videos.length;
