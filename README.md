@@ -2,12 +2,14 @@
 
 This is a web application that search for movies and display videos using the TMDB API. It also shows features such as upcoming movies, top rated, titles and more.
 
-# Installation and usage
+## Installation and usage
 Simply run the <code>index.html</code> in the folder. You can launch the application immediately. 
 
-# License
-The MIT License (MIT)
+## Demo
+![demo-movie-search-app](https://user-images.githubusercontent.com/18035227/75121191-1bcf3600-5692-11ea-958e-a9ce607cab29.gif)
 
+## License
+The MIT License (MIT)
 Copyright (c) <YEAR> <OWNER>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
