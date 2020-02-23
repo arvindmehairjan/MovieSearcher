@@ -1,7 +1,7 @@
 // Get values using the API
 const API_KEY = '21a87e7abc95923bf7812946fdaaa819';
 const IMAGE_URL = 'https://image.tmdb.org/t/p/w500';
-const url = 'https://api.themoviedb.org/3/search/movie?api_key=21a87e7abc95923bf7812946fdaaa819';
+const url = 'https://api.themoviedb.org/3/search/movie?api_key={key-here}}';
 
 function generateUrl(path) {
     const url = `https://api.themoviedb.org/3${path}?api_key=21a87e7abc95923bf7812946fdaaa819`;
